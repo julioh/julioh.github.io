@@ -1,0 +1,48 @@
+title = "200 social"
+baseurl = "https://julioh.github.io/"
+publishdir = "public"
+contentdir = "src/hugo/content"
+layoutdir = "src/hugo/layouts"
+staticdir = "src/hugo/static"
+themesdir = "src/hugo/themes"
+
+[params]
+  # Meta parameters.
+  encoding = "utf-8"
+  description = ""
+  DefaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
+weight = 0
+languageName = "English"
+
+[[Languages.en.menu.main]]
+url    = "/#about"
+name   = "About"
+weight = 1
+[[Languages.en.menu.main]]
+url    = "/#howitworks"
+name   = "How"
+weight = 2
+[[Languages.en.menu.main]]
+url    = "/#products"
+name   = "Products"
+weight = 3
+[[Languages.en.menu.main]]
+url    = "/#benefits"
+name   = "Benefits"
+weight = 4
+[[Languages.en.menu.main]]
+url    = "/#contact"
+name   = "Contact"
+weight = 5
+[[Languages.en.menu.main]]
+url    = "/es/"
+name   = "ES"
+weight = 6
+
+[blackfriday]
+  hrefTargetBlank = true
+
+
