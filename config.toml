@@ -1,5 +1,5 @@
 title = "200 social"
-baseurl = "https://julioh.github.io/"
+baseurl = "https://julioh.github.io"
 publishdir = "public"
 contentdir = "src/hugo/content"
 layoutdir = "src/hugo/layouts"
