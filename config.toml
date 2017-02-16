@@ -18,7 +18,7 @@ weight = 0
 languageName = "English"
 
 [[Languages.en.menu.main]]
-url    = "/#about"
+url    = "what-is-200-social"
 name   = "What is $200 Social Media"
 weight = 1
 [[Languages.en.menu.main]]
