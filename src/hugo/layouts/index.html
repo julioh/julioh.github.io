@@ -29,11 +29,10 @@
     </div>
   </div>
 </div>
-  <div class="theme-page Header">{{ partial "menu.html" . }}
     <div class="theme-page-container">
       <div class="theme-page-content theme-page-content--header">
         <div class="theme-page-content--section">
-          <div class="Header-logo"><img src="/img/a.svg" ></div>
+          <div class="Header-logo"><img src="/img/header23.jpg" width="1400" ></div>
         </div>
         <div class="theme-page-content--section">
           <div class="Header-subtitle">
@@ -43,10 +42,6 @@
               {{ end }}
 	{{ if eq .Site.Language.Lang "en" }}
             {{ range where .Data.Pages ".Title" "Get More Information Now" }}
-        <a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a>
-	    {{ end }}
-	{{ else if eq .Site.Language.Lang "es" }}
-	    {{ range where .Data.Pages ".Title" "Obtener más información ahora" }}
         <a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a>
 	    {{ end }}
 	{{ end }}
@@ -72,7 +67,7 @@
                   </div>
 		</div>
 		{{ end }}
-	{{ else if eq .Site.Language.Lang "es" }}
+	{{ else if eq .Site.Language.Lang  }}
 		{{ range where .Data.Pages ".Title" "La Oportunidad de Negocio" }}
             <div class="theme-page-content-title">
               <p>{{ .Title }}</p>
@@ -115,17 +110,6 @@
               </div>
             </div>
           {{ end }}
-	 {{ else if eq .Site.Language.Lang "es" }}
-          {{ range where .Data.Pages ".Title" "Beneficios" }}
-            <div class="theme-page-content-title theme-page-content-title--dark">
-              <p>{{ .Title }}</p>
-            </div>
-            <div class="Benefits-content">
-              <div class="theme-page-content--small">
-                {{ .Content }}
-              </div>
-            </div>
-          {{ end }}
          {{ end }}
         </div>
       </div>
@@ -140,17 +124,6 @@
               {{ .Content }}
             {{ end }}
           </div>
-	{{ if eq .Site.Language.Lang "en" }}
-            {{ range where .Data.Pages ".Title" "Fill out the form below for More Information" }}
-        <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
-	    {{ end }}
-	{{ else if eq .Site.Language.Lang "es" }}
-	    {{ range where .Data.Pages ".Title" "Rellene el siguiente formulario para obtener más información" }}
-        <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
-	    {{ end }}
-	{{ end }}
-        </div>
-      </div>
     </div>
   </div>
   <div class="theme-page Information Information--light">
@@ -171,28 +144,16 @@
             {{ range where .Data.Pages ".Title" "Fill out the form below for More Information" }}
         <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
 	    {{ end }}
-	{{ else if eq .Site.Language.Lang "es" }}
-	    {{ range where .Data.Pages ".Title" "Rellene el siguiente formulario para obtener más información" }}
-        <div class="theme-page-content--small"><a href="#contact" class="u-btn u-btn-x-large theme-btn-primary">{{ .Title }}</a></div>
-	    {{ end }}
 	{{ end }}
       </div>
     </div>
   </div>
+
   <div id="contact" class="theme-page Contact">
     <div class="theme-page-container">
       <div class="theme-page-content">
 	{{ if eq .Site.Language.Lang "en" }}
             {{ range where .Data.Pages ".Title" "Contact" }}
-            <div class="theme-page-content-title">
-              <p>{{ .Title }}</p>
-            </div>
-            <div class="theme-page-content--x-small">
-            {{ .Content }}
-            </div>
-            {{ end }}
-	 {{ else if eq .Site.Language.Lang "es" }}
-            {{ range where .Data.Pages ".Title" "Contacto" }}
             <div class="theme-page-content-title">
               <p>{{ .Title }}</p>
             </div>

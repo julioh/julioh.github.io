@@ -30,7 +30,6 @@ url    = "/#contact"
 name   = " Contact $200 Social"
 weight = 3
 
-
 [blackfriday]
   hrefTargetBlank = true
 

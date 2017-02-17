@@ -13,6 +13,8 @@ html {
   /* 2 */ }
 
 /**
+ *mueve la pagina
+ *.theme-page-content--x-small {
  * Remove the margin in all browsers (opinionated).
  */
 body {
@@ -91,77 +93,6 @@ a:hover {
   outline-width: 0; }
 
 /* Text-level semantics
-   ========================================================================== */
-/**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */ }
-
-/**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b,
-strong {
-  font-weight: inherit; }
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder; }
-
-/**
- * Add the correct font style in Android 4.3-.
- */
-dfn {
-  font-style: italic; }
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-/**
- * Add the correct background and color in IE 9-.
- */
-mark {
-  background-color: #ff0;
-  color: #000; }
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sub {
-  bottom: -0.25em; }
-
-sup {
-  top: -0.5em; }
-
 /* Embedded content
    ========================================================================== */
 /**
@@ -374,7 +305,7 @@ body {
 
 body {
   background-color: white;
-  color: #424242;
+  color: #EC6A48;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 1.6; }
@@ -1096,9 +1027,9 @@ input[type=text], textarea {
     display: table; }
   .theme-page-container--normal {
     height: 100%;
-    margin-top: -120px; }
+    margin-top: 100px; }
   .theme-page-content {
-    padding: 40px 0;
+    padding: 100px 0;
     text-align: center;
     width: 100%; }
     .theme-page-content-title {
@@ -1130,8 +1061,8 @@ input[type=text], textarea {
       margin: auto;
       width: 1024px; }
     .theme-page-content--x-small {
-      margin: auto;
-      width: 800px; }
+      margin: 100px;
+      width: auto; }
   .theme-page-space {
     padding-top: 100px; }
 
