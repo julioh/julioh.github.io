@@ -110,11 +110,11 @@ Fully Managed Social Media </th>
   </td>
 </tr>
 <thead>
-<th><center><a href="contact"  onClick="window.open(this.href'); return false;" class="btn btn-success btn-lg">BUY NOW</a></center></th>
+<th><center><a href="contact"  onClick="window.open(this.href'); return false;" >BUY NOW</a></center></th>
 
-<th><center><a href="contact"  onClick="window.open(this.href'); return false;" class="btn btn-primary btn-lg">BUY NOW</a></center></th>
+<th><center><a href="contact"  onClick="window.open(this.href'); return false;" >BUY NOW</a></center></th>
 
-<th><center><a href="contact"  onClick="window.open(this.href'); return false;" class="btn btn-primary btn-lg">BUY NOW</a></center></th></thead>
+<th><center><a href="contact"  onClick="window.open(this.href'); return false;" >BUY NOW</a></center></th></thead>
 
 </table>
 <div><br>

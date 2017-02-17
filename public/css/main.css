@@ -432,21 +432,21 @@ fieldset {
   border: 0; }
 
 ::-webkit-input-placeholder {
-  color: #424242; }
+  color: #3A4149; }
 
 :-moz-placeholder {
-  color: #424242;
+  color: #3A4149;
   opacity: 1; }
 
 ::-moz-placeholder {
-  color: #424242;
+  color: #3A4149;
   opacity: 1; }
 
 :-ms-input-placeholder {
-  color: #424242; }
+  color: #3A4149; }
 
 :placeholder-shown {
-  color: #424242; }
+  color: #3A4149; }
 
 .u-btn {
   -webkit-border-radius: 10px;
