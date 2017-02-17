@@ -12,7 +12,7 @@ title = "Header"
 
 We know you are busy. The problem is that your competitors are catching on to the power of Social Media. What are you doing about it? Do you have 5 minutes per day to build your brand? Can you use a smartphone?
 
-<img src="/img/borde.jpeg" >
+<img src="/img/borde.jpeg" align="center">
 
 </center></th></thead></table>
 <br>
@@ -32,8 +32,9 @@ We know you are busy. The problem is that your competitors are catching on to th
 
 </center></th></thead></table></font></font></left></th></table>
 
-
+<img src="img/200social.ico" align="center">
 <br>
+
 <table  width="100" class="table table-bordered" align="center">
 <thead>
 <th bgcolor="#EC6A48">

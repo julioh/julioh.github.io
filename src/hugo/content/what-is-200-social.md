@@ -1,12 +1,12 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 
-<section id="contact">
+<section id="what-is-200.social">
     <div class="container">
         <div class="row">
  
                 <font color="White">
 
-                {{ with .Site.Params.contact.headline }}
+                {{ with .Site.Params.what-is-200.social.headline }}
                    
                 {{ end }}
                                 <font color="0000">
